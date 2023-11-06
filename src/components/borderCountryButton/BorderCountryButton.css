@@ -1,0 +1,10 @@
+.borderCountry-button {
+  background-color: var(--elements);
+  color: var(--input);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 5px 5px 0;
+  box-shadow: 2px 2px 4px Var(--shadow);
+  cursor: pointer;
+}

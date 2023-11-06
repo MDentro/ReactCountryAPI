@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--elements);
+  color: var(--text);
+  box-shadow: 2px 2px 4px var(--shadow);
+  margin-bottom: 3px;
+}
+
+header > p {
+  font-weight: 800;
+}
+
+.mode-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mode-container p {
+  margin-left: 10px;
+}
+@media only screen and (min-width: 700px) {
+  header > p {
+    font-size: 30px;
+  }
+}
